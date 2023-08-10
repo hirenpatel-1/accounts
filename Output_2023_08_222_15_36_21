@@ -1,0 +1,102 @@
+{
+  "uuid" : "ee9dca12-819b-4040-a748-934971535c22",
+  "fname" : "input_01.csv",
+  "errors" : [ "Tara Maynard don't have the hire date and it's mandatory in the database", "Nikolai Roy don't have employee code and action is change", "Employee code 7805046C having empty Full Name field and it's mandatory field in the database", "Employee code 2005055D don't have termination date and action is terminate" ],
+  "payload" : [ {
+    "employeeCode" : "611207BE",
+    "action" : "hire",
+    "data" : {
+      "fullName" : "Alberto Leonard",
+      "gender" : "M",
+      "birthDate" : "1961-12-07",
+      "hireDate" : "1992-07-01",
+      "terminationDate" : ""
+    },
+    "payComponents" : [ {
+      "amount" : "3300",
+      "currency" : "USD",
+      "startDate" : "2022-01-01",
+      "endDate" : "2022-01-31"
+    } ]
+  }, {
+    "employeeCode" : "660831F5",
+    "action" : "change",
+    "data" : {
+      "fullName" : "Hazel Webster",
+      "gender" : "F",
+      "birthDate" : "1966-08-31",
+      "hireDate" : "1998-09-06",
+      "terminationDate" : ""
+    },
+    "payComponents" : [ {
+      "amount" : "4400",
+      "currency" : "EUR",
+      "startDate" : "2022-01-01",
+      "endDate" : "2022-01-31"
+    } ]
+  }, {
+    "employeeCode" : "80072480",
+    "action" : "hire",
+    "data" : {
+      "fullName" : "Brock Salazar",
+      "gender" : "M",
+      "birthDate" : "1980-07-24",
+      "hireDate" : "2013-05-31",
+      "terminationDate" : ""
+    },
+    "payComponents" : [ {
+      "amount" : "1400",
+      "currency" : "EUR",
+      "startDate" : "2022-01-01",
+      "endDate" : "2022-01-31"
+    } ]
+  }, {
+    "employeeCode" : "90040543",
+    "action" : "change",
+    "data" : {
+      "fullName" : "Cole Sloan",
+      "gender" : "M",
+      "birthDate" : "1990-04-05",
+      "hireDate" : "2015-05-31",
+      "terminationDate" : ""
+    },
+    "payComponents" : [ {
+      "amount" : "3000",
+      "currency" : "EUR",
+      "startDate" : "2022-01-01",
+      "endDate" : "2022-01-31"
+    } ]
+  }, {
+    "employeeCode" : "020121F8",
+    "action" : "hire",
+    "data" : {
+      "fullName" : "Zaiden Arnold",
+      "gender" : "",
+      "birthDate" : "2002-08-02",
+      "hireDate" : "2022-03-01",
+      "terminationDate" : ""
+    },
+    "payComponents" : [ {
+      "amount" : "",
+      "currency" : "",
+      "startDate" : "",
+      "endDate" : ""
+    } ]
+  }, {
+    "employeeCode" : "",
+    "action" : "hire",
+    "data" : {
+      "fullName" : "Norah Church",
+      "gender" : "F",
+      "birthDate" : "2008-05-18",
+      "hireDate" : "2022-01-01",
+      "terminationDate" : ""
+    },
+    "payComponents" : [ {
+      "amount" : "",
+      "currency" : "USD",
+      "startDate" : "2022-01-01",
+      "endDate" : "2022-01-31"
+    } ]
+  } ]
+}
